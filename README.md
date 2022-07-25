@@ -16,11 +16,12 @@ split the .dat file and rename those file as uniprotID.txt
 python main.py --id [uniprotID]
 
 ## Directory Structure
-   deepchembed (master)
-|--Data  
+
+(master)
+|--Data
    |-- proteomeLLPSscore
 |--Code  
-   |-- app.py                       
+   |-- app.py
    |-- main.py
    |-- model.py
    |-- packages.ini

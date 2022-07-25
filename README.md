@@ -14,24 +14,3 @@ split the .dat file and rename those file as uniprotID.txt
 
 3. start the query
 python main.py --id [uniprotID]
-
-## Directory Structure
-
-
-(master)
-|--Data
-
-   |-- proteomeLLPSscore
-   
-|--Code
-
-   |-- app.py
-   
-   |-- main.py
-   
-   |-- model.py
-   
-   |-- packages.ini
-   
-   |-- uniprot_function3.py
-   

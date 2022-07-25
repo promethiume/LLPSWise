@@ -25,7 +25,7 @@ def get_function(query=""):
     go_celllocation_list = []
     go_pathway_list = []
     
-    with open("uniprotDB2/"+query+".txt", "r") as f:
+    with open("uniprotDB/"+query+".txt", "r") as f:
         page = f.readlines()
 
     for line in page:
@@ -47,7 +47,7 @@ def uniprot(uniprotID):
  
         get subcellular location
     """
-    for record in SeqIO.parse("uniprotDB2/"+uniprotID+".txt", "swiss"):
+    for record in SeqIO.parse("uniprotDB/"+uniprotID+".txt", "swiss"):
         resultseq = record.seq
 
         try:

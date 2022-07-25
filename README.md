@@ -17,12 +17,21 @@ python main.py --id [uniprotID]
 
 ## Directory Structure
 
+
 (master)
 |--Data
+
    |-- proteomeLLPSscore
-|--Code  
+   
+|--Code
+
    |-- app.py
+   
    |-- main.py
+   
    |-- model.py
+   
    |-- packages.ini
+   
    |-- uniprot_function3.py
+   

@@ -13,7 +13,7 @@ see Code/packages.ini
 split the .dat file and rename those file as uniprotID.txt
 
 3. start the query
-python main.py --id <uniprotID>
+python main.py --id [uniprotID]
 
 ## Directory Structure
    deepchembed (master)

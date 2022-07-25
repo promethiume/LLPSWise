@@ -5,7 +5,9 @@ computational prediction of biological liquid-liquid phase separation systems
 1. pre-requirements:
 see Code/packages.ini
 2. create uniprot database from https://www.uniprot.org/help/downloads
+
 ``mkdir uniprotDB``
+
 ``wget https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.dat.gz``
 
 split the .dat file and rename those file as uniprotID.txt

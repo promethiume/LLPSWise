@@ -281,7 +281,7 @@ else:    # target protein is client and pri contact DONOT include a scaffold pro
     .set_global_opts(title_opts=opts.TitleOpts(title="low bio-condensate propensity"))  
     .render("templates/newnetworkpriC3-0616"+str(uniprotID)+bootstrap+".html")
     )
-    print(111111111111111111111111111111111111111111111111111111111111)
+    print("Not a LLPS system")
     sys.exit()
 
 # node generator

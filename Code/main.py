@@ -59,7 +59,7 @@ blackList = ["P0CG48"] #UBC,
 print(bootstrap)
 
 # set up protein-protein interaction database
-ppidata = pd.read_table("~/Code/condensateNet/biogrid/ORGANISM/BIOGRID-ORGANISM-Homo_sapiens-4.4.207.tab3.txt", low_memory=False)
+ppidata = pd.read_table("BIOGRID-ORGANISM-Homo_sapiens-4.4.207.tab3.txt", low_memory=False)
 
 flatten = lambda x: [i for row in x for i in row] # flatten 2D list to 1D
 

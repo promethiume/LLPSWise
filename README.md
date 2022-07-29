@@ -6,13 +6,11 @@ computational prediction of biological liquid-liquid phase separation systems
 see Code/packages.ini
 2. data requirements:
 
-a) Download PPI data from biogrid
+a) Download PPI data （"BIOGRID-ORGANISM-Homo_sapiens-4.4.207.tab3.txt"） from biogrid
 
-https://downloads.thebiogrid.org/BioGRID
+https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.211/
 
-Or use our version(already uploaded in this repository):
-
-"BIOGRID-ORGANISM-Homo_sapiens-4.4.207.tab3.txt"
+and change the path in main.py 
 
 b) Create uniprot database from https://www.uniprot.org/help/downloads
 

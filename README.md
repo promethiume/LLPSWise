@@ -1,6 +1,8 @@
 # LLPSWise
 computational prediction of biological liquid-liquid phase separation systems
 
+https://www.biorxiv.org/content/10.1101/2022.07.25.501404v1
+
 ## Getting Started
 1. pre-requirements:
 see Code/packages.ini

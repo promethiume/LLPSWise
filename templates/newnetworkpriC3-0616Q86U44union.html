@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="f98404b0581f4189aac6955587b1747c" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_f98404b0581f4189aac6955587b1747c = echarts.init(
+            document.getElementById('f98404b0581f4189aac6955587b1747c'), 'white', {renderer: 'canvas'});
+        var option_f98404b0581f4189aac6955587b1747c = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "graph",
+            "layout": "force",
+            "symbolSize": 10,
+            "circular": {
+                "rotateLabel": false
+            },
+            "force": {
+                "repulsion": 4000,
+                "edgeLength": 50,
+                "gravity": 0.2
+            },
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "roam": true,
+            "draggable": false,
+            "focusNodeAdjacency": true,
+            "data": [
+                {
+                    "name": "METTL3",
+                    "symbolSize": 40,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#FFA500",
+                            "borderColor": "red",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "ZC3H13",
+                    "symbolSize": 35,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "orange"
+                        }
+                    }
+                },
+                {
+                    "name": "CBLL1",
+                    "symbolSize": 30,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#FF6347"
+                        }
+                    }
+                },
+                {
+                    "name": "TRIM28",
+                    "symbolSize": 30,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#FF6347"
+                        }
+                    }
+                },
+                {
+                    "name": "NSUN2",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF",
+                            "borderColor": "#1E9000",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "METTL14",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF",
+                            "borderColor": "#1E9000",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "NCBP1",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF",
+                            "borderColor": "#1E9000",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "VIRMA",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF",
+                            "borderColor": "#1E9000",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "WTAP",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "SRC",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "CBX5",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "CBX3",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "CBX1",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                }
+            ],
+            "edgeLabel": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "edgeSymbol": [
+                null,
+                null
+            ],
+            "edgeSymbolSize": 10,
+            "links": [
+                {
+                    "source": "ZC3H13",
+                    "target": "VIRMA"
+                },
+                {
+                    "source": "ZC3H13",
+                    "target": "WTAP"
+                },
+                {
+                    "source": "ZC3H13",
+                    "target": "METTL3"
+                },
+                {
+                    "source": "ZC3H13",
+                    "target": "METTL14"
+                },
+                {
+                    "source": "VIRMA",
+                    "target": "CBLL1"
+                },
+                {
+                    "source": "VIRMA",
+                    "target": "METTL3"
+                },
+                {
+                    "source": "VIRMA",
+                    "target": "METTL14"
+                },
+                {
+                    "source": "VIRMA",
+                    "target": "WTAP"
+                },
+                {
+                    "source": "WTAP",
+                    "target": "CBLL1"
+                },
+                {
+                    "source": "WTAP",
+                    "target": "METTL3"
+                },
+                {
+                    "source": "METTL3",
+                    "target": "CBLL1"
+                },
+                {
+                    "source": "METTL3",
+                    "target": "METTL14"
+                },
+                {
+                    "source": "METTL3",
+                    "target": "TRIM28"
+                },
+                {
+                    "source": "METTL3",
+                    "target": "NCBP1"
+                },
+                {
+                    "source": "METTL3",
+                    "target": "NSUN2"
+                },
+                {
+                    "source": "METTL14",
+                    "target": "CBLL1"
+                },
+                {
+                    "source": "METTL14",
+                    "target": "TRIM28"
+                },
+                {
+                    "source": "CBLL1",
+                    "target": "SRC"
+                },
+                {
+                    "source": "TRIM28",
+                    "target": "CBX5"
+                },
+                {
+                    "source": "TRIM28",
+                    "target": "CBX3"
+                },
+                {
+                    "source": "TRIM28",
+                    "target": "CBX1"
+                }
+            ]
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "Bio-condensate Network of METTL3 union",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_f98404b0581f4189aac6955587b1747c.setOption(option_f98404b0581f4189aac6955587b1747c);
+    </script>
+</body>
+</html>

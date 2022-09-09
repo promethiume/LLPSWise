@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="506fad321d7a4e4483a3376d37ad911d" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_506fad321d7a4e4483a3376d37ad911d = echarts.init(
+            document.getElementById('506fad321d7a4e4483a3376d37ad911d'), 'white', {renderer: 'canvas'});
+        var option_506fad321d7a4e4483a3376d37ad911d = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "graph",
+            "layout": "force",
+            "symbolSize": 10,
+            "circular": {
+                "rotateLabel": false
+            },
+            "force": {
+                "repulsion": 4000,
+                "edgeLength": 50,
+                "gravity": 0.2
+            },
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "roam": true,
+            "draggable": false,
+            "focusNodeAdjacency": true,
+            "data": [
+                {
+                    "name": "TNFSF18",
+                    "symbolSize": 40,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#FFA500",
+                            "borderColor": "red",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "NLGN2",
+                    "symbolSize": 35,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "orange"
+                        }
+                    }
+                },
+                {
+                    "name": "SNCA",
+                    "symbolSize": 30,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#FF6347"
+                        }
+                    }
+                },
+                {
+                    "name": "APP",
+                    "symbolSize": 30,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#FF6347"
+                        }
+                    }
+                },
+                {
+                    "name": "CLU",
+                    "symbolSize": 30,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#FF6347"
+                        }
+                    }
+                },
+                {
+                    "name": "HSP90B1",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF",
+                            "borderColor": "#1E9000",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "HSPD1",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF",
+                            "borderColor": "#1E9000",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "MAPT",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF",
+                            "borderColor": "#1E9000",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "CRYAB",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "SLC6A3",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "APBB1",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "APBA2",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "TGFBR1",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "HTR3A",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                }
+            ],
+            "edgeLabel": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "edgeSymbol": [
+                null,
+                null
+            ],
+            "edgeSymbolSize": 10,
+            "links": [
+                {
+                    "source": "SNCA",
+                    "target": "MAPT"
+                },
+                {
+                    "source": "SNCA",
+                    "target": "CRYAB"
+                },
+                {
+                    "source": "SNCA",
+                    "target": "APP"
+                },
+                {
+                    "source": "SNCA",
+                    "target": "SLC6A3"
+                },
+                {
+                    "source": "SNCA",
+                    "target": "CLU"
+                },
+                {
+                    "source": "CRYAB",
+                    "target": "APP"
+                },
+                {
+                    "source": "APP",
+                    "target": "APBB1"
+                },
+                {
+                    "source": "APP",
+                    "target": "CLU"
+                },
+                {
+                    "source": "APP",
+                    "target": "APBA2"
+                },
+                {
+                    "source": "CLU",
+                    "target": "HSPD1"
+                },
+                {
+                    "source": "CLU",
+                    "target": "HSP90B1"
+                },
+                {
+                    "source": "CLU",
+                    "target": "TGFBR1"
+                },
+                {
+                    "source": "CLU",
+                    "target": "NLGN2"
+                },
+                {
+                    "source": "TNFSF18",
+                    "target": "NLGN2"
+                },
+                {
+                    "source": "NLGN2",
+                    "target": "HTR3A"
+                }
+            ]
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "Bio-condensate Network of TNFSF18 union",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_506fad321d7a4e4483a3376d37ad911d.setOption(option_506fad321d7a4e4483a3376d37ad911d);
+    </script>
+</body>
+</html>

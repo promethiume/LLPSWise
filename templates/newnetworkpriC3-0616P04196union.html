@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="ba032391d803490c9e867d6c2e78c62c" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_ba032391d803490c9e867d6c2e78c62c = echarts.init(
+            document.getElementById('ba032391d803490c9e867d6c2e78c62c'), 'white', {renderer: 'canvas'});
+        var option_ba032391d803490c9e867d6c2e78c62c = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "graph",
+            "layout": "force",
+            "symbolSize": 10,
+            "circular": {
+                "rotateLabel": false
+            },
+            "force": {
+                "repulsion": 4000,
+                "edgeLength": 50,
+                "gravity": 0.2
+            },
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "roam": true,
+            "draggable": false,
+            "focusNodeAdjacency": true,
+            "data": [
+                {
+                    "name": "HRG",
+                    "symbolSize": 40,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#FFA500",
+                            "borderColor": "red",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "PLSCR1",
+                    "symbolSize": 30,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#FF6347"
+                        }
+                    }
+                },
+                {
+                    "name": "SHC1",
+                    "symbolSize": 30,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#FF6347"
+                        }
+                    }
+                },
+                {
+                    "name": "EWSR1",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF",
+                            "borderColor": "#1E9000",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "EGFR",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF",
+                            "borderColor": "#1E9000",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "NTRK1",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "ERBB3",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "INPP5D",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                }
+            ],
+            "edgeLabel": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "edgeSymbol": [
+                null,
+                null
+            ],
+            "edgeSymbolSize": 10,
+            "links": [
+                {
+                    "source": "PLSCR1",
+                    "target": "SHC1"
+                },
+                {
+                    "source": "PLSCR1",
+                    "target": "EWSR1"
+                },
+                {
+                    "source": "PLSCR1",
+                    "target": "HRG"
+                },
+                {
+                    "source": "SHC1",
+                    "target": "EGFR"
+                },
+                {
+                    "source": "SHC1",
+                    "target": "NTRK1"
+                },
+                {
+                    "source": "SHC1",
+                    "target": "ERBB3"
+                },
+                {
+                    "source": "SHC1",
+                    "target": "INPP5D"
+                }
+            ]
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "Bio-condensate Network of HRG union",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_ba032391d803490c9e867d6c2e78c62c.setOption(option_ba032391d803490c9e867d6c2e78c62c);
+    </script>
+</body>
+</html>

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="83ab16b572ee4fb68a786a64e6a242ec" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_83ab16b572ee4fb68a786a64e6a242ec = echarts.init(
+            document.getElementById('83ab16b572ee4fb68a786a64e6a242ec'), 'white', {renderer: 'canvas'});
+        var option_83ab16b572ee4fb68a786a64e6a242ec = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "graph",
+            "layout": "force",
+            "symbolSize": 10,
+            "circular": {
+                "rotateLabel": false
+            },
+            "force": {
+                "repulsion": 4000,
+                "edgeLength": 50,
+                "gravity": 0.2
+            },
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "roam": true,
+            "draggable": false,
+            "focusNodeAdjacency": true,
+            "data": [
+                {
+                    "name": "MMS22L",
+                    "symbolSize": 40,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#FFA500",
+                            "borderColor": "red",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "TONSL",
+                    "symbolSize": 35,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "orange"
+                        }
+                    }
+                },
+                {
+                    "name": "RBBP8",
+                    "symbolSize": 30,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#FF6347"
+                        }
+                    }
+                },
+                {
+                    "name": "NBN",
+                    "symbolSize": 30,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#FF6347"
+                        }
+                    }
+                },
+                {
+                    "name": "BRCA1",
+                    "symbolSize": 30,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#FF6347"
+                        }
+                    }
+                },
+                {
+                    "name": "MRE11",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF",
+                            "borderColor": "#1E9000",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "H2AX",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF",
+                            "borderColor": "#1E9000",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "PALB2",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF",
+                            "borderColor": "#1E9000",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "ATM",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF",
+                            "borderColor": "#1E9000",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "ATR",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF",
+                            "borderColor": "#1E9000",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "BLM",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF",
+                            "borderColor": "#1E9000",
+                            "borderWidth": 5
+                        }
+                    }
+                }
+            ],
+            "edgeLabel": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "edgeSymbol": [
+                null,
+                null
+            ],
+            "edgeSymbolSize": 10,
+            "links": [
+                {
+                    "source": "RBBP8",
+                    "target": "BRCA1"
+                },
+                {
+                    "source": "RBBP8",
+                    "target": "MRE11"
+                },
+                {
+                    "source": "RBBP8",
+                    "target": "NBN"
+                },
+                {
+                    "source": "BRCA1",
+                    "target": "NBN"
+                },
+                {
+                    "source": "BRCA1",
+                    "target": "PALB2"
+                },
+                {
+                    "source": "BRCA1",
+                    "target": "TONSL"
+                },
+                {
+                    "source": "BRCA1",
+                    "target": "H2AX"
+                },
+                {
+                    "source": "MRE11",
+                    "target": "NBN"
+                },
+                {
+                    "source": "NBN",
+                    "target": "ATM"
+                },
+                {
+                    "source": "NBN",
+                    "target": "H2AX"
+                },
+                {
+                    "source": "NBN",
+                    "target": "ATR"
+                },
+                {
+                    "source": "NBN",
+                    "target": "BLM"
+                },
+                {
+                    "source": "H2AX",
+                    "target": "TONSL"
+                },
+                {
+                    "source": "MMS22L",
+                    "target": "TONSL"
+                }
+            ]
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "Bio-condensate Network of MMS22L union",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_83ab16b572ee4fb68a786a64e6a242ec.setOption(option_83ab16b572ee4fb68a786a64e6a242ec);
+    </script>
+</body>
+</html>

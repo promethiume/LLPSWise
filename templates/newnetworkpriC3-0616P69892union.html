@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="263a46c8716c4f809de3f4f70d224bd6" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_263a46c8716c4f809de3f4f70d224bd6 = echarts.init(
+            document.getElementById('263a46c8716c4f809de3f4f70d224bd6'), 'white', {renderer: 'canvas'});
+        var option_263a46c8716c4f809de3f4f70d224bd6 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "graph",
+            "layout": "force",
+            "symbolSize": 10,
+            "circular": {
+                "rotateLabel": false
+            },
+            "force": {
+                "repulsion": 4000,
+                "edgeLength": 50,
+                "gravity": 0.2
+            },
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "roam": true,
+            "draggable": false,
+            "focusNodeAdjacency": true,
+            "data": [
+                {
+                    "name": "HBG2",
+                    "symbolSize": 40,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#FFA500",
+                            "borderColor": "red",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "SMAD5",
+                    "symbolSize": 35,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "orange"
+                        }
+                    }
+                },
+                {
+                    "name": "HGS",
+                    "symbolSize": 30,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#FF6347"
+                        }
+                    }
+                },
+                {
+                    "name": "SMAD4",
+                    "symbolSize": 30,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#FF6347"
+                        }
+                    }
+                },
+                {
+                    "name": "SMAD1",
+                    "symbolSize": 30,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#FF6347"
+                        }
+                    }
+                },
+                {
+                    "name": "SMAD2",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF",
+                            "borderColor": "#1E9000",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "COPS5",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "SMAD6",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "MICAL1",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "HBM",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "HBA1",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                }
+            ],
+            "edgeLabel": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "edgeSymbol": [
+                null,
+                null
+            ],
+            "edgeSymbolSize": 10,
+            "links": [
+                {
+                    "source": "SMAD4",
+                    "target": "SMAD2"
+                },
+                {
+                    "source": "SMAD4",
+                    "target": "SMAD1"
+                },
+                {
+                    "source": "SMAD4",
+                    "target": "COPS5"
+                },
+                {
+                    "source": "SMAD4",
+                    "target": "SMAD5"
+                },
+                {
+                    "source": "SMAD1",
+                    "target": "SMAD6"
+                },
+                {
+                    "source": "COPS5",
+                    "target": "SMAD5"
+                },
+                {
+                    "source": "HBG2",
+                    "target": "SMAD5"
+                },
+                {
+                    "source": "HBG2",
+                    "target": "MICAL1"
+                },
+                {
+                    "source": "HBG2",
+                    "target": "HBM"
+                },
+                {
+                    "source": "HBG2",
+                    "target": "HBA1"
+                },
+                {
+                    "source": "SMAD5",
+                    "target": "HGS"
+                }
+            ]
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "Bio-condensate Network of HBG2 union",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_263a46c8716c4f809de3f4f70d224bd6.setOption(option_263a46c8716c4f809de3f4f70d224bd6);
+    </script>
+</body>
+</html>

@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="c63921a0c8bc46169bfcb7f6ba8f12d8" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_c63921a0c8bc46169bfcb7f6ba8f12d8 = echarts.init(
+            document.getElementById('c63921a0c8bc46169bfcb7f6ba8f12d8'), 'white', {renderer: 'canvas'});
+        var option_c63921a0c8bc46169bfcb7f6ba8f12d8 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "graph",
+            "layout": "force",
+            "symbolSize": 10,
+            "circular": {
+                "rotateLabel": false
+            },
+            "force": {
+                "repulsion": 4000,
+                "edgeLength": 50,
+                "gravity": 0.2
+            },
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "roam": true,
+            "draggable": false,
+            "focusNodeAdjacency": true,
+            "data": [
+                {
+                    "name": "VAV2",
+                    "symbolSize": 40,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#FFA500",
+                            "borderColor": "red",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "CD19",
+                    "symbolSize": 35,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "orange"
+                        }
+                    }
+                },
+                {
+                    "name": "CBL",
+                    "symbolSize": 30,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#FF6347"
+                        }
+                    }
+                },
+                {
+                    "name": "GP6",
+                    "symbolSize": 30,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#FF6347"
+                        }
+                    }
+                },
+                {
+                    "name": "CBLB",
+                    "symbolSize": 30,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#FF6347"
+                        }
+                    }
+                },
+                {
+                    "name": "GRB2",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF",
+                            "borderColor": "#1E9000",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "CRKL",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF",
+                            "borderColor": "#1E9000",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "ABL1",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF",
+                            "borderColor": "#1E9000",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "EGFR",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF",
+                            "borderColor": "#1E9000",
+                            "borderWidth": 5
+                        }
+                    }
+                },
+                {
+                    "name": "PIK3R1",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "SH3KBP1",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "FYN",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "CRK",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "SYK",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "LYN",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "TGFB1I1",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "FCER1G",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "PTK2B",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "NCK2",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "VAV1",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "CD2AP",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "SLC12A6",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "CAV1",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "ERBB2",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "ERBB3",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "TOM1L1",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "CDK1",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                },
+                {
+                    "name": "KIT",
+                    "symbolSize": 20,
+                    "itemStyle": {
+                        "normal": {
+                            "color": "#1E90FF"
+                        }
+                    }
+                }
+            ],
+            "edgeLabel": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "edgeSymbol": [
+                null,
+                null
+            ],
+            "edgeSymbolSize": 10,
+            "links": [
+                {
+                    "source": "CBL",
+                    "target": "EGFR"
+                },
+                {
+                    "source": "CBL",
+                    "target": "GRB2"
+                },
+                {
+                    "source": "CBL",
+                    "target": "PIK3R1"
+                },
+                {
+                    "source": "CBL",
+                    "target": "CRKL"
+                },
+                {
+                    "source": "CBL",
+                    "target": "SH3KBP1"
+                },
+                {
+                    "source": "CBL",
+                    "target": "FYN"
+                },
+                {
+                    "source": "CBL",
+                    "target": "CRK"
+                },
+                {
+                    "source": "CBL",
+                    "target": "ABL1"
+                },
+                {
+                    "source": "CBL",
+                    "target": "SYK"
+                },
+                {
+                    "source": "CBL",
+                    "target": "VAV1"
+                },
+                {
+                    "source": "CBL",
+                    "target": "LYN"
+                },
+                {
+                    "source": "EGFR",
+                    "target": "CBLB"
+                },
+                {
+                    "source": "EGFR",
+                    "target": "VAV2"
+                },
+                {
+                    "source": "EGFR",
+                    "target": "VAV1"
+                },
+                {
+                    "source": "EGFR",
+                    "target": "LYN"
+                },
+                {
+                    "source": "GRB2",
+                    "target": "CBLB"
+                },
+                {
+                    "source": "GRB2",
+                    "target": "VAV2"
+                },
+                {
+                    "source": "GRB2",
+                    "target": "VAV1"
+                },
+                {
+                    "source": "PIK3R1",
+                    "target": "CBLB"
+                },
+                {
+                    "source": "SH3KBP1",
+                    "target": "CBLB"
+                },
+                {
+                    "source": "FYN",
+                    "target": "GP6"
+                },
+                {
+                    "source": "SYK",
+                    "target": "VAV1"
+                },
+                {
+                    "source": "GP6",
+                    "target": "LYN"
+                },
+                {
+                    "source": "GP6",
+                    "target": "TGFB1I1"
+                },
+                {
+                    "source": "GP6",
+                    "target": "FCER1G"
+                },
+                {
+                    "source": "GP6",
+                    "target": "PTK2B"
+                },
+                {
+                    "source": "LYN",
+                    "target": "CD19"
+                },
+                {
+                    "source": "LYN",
+                    "target": "CDK1"
+                },
+                {
+                    "source": "LYN",
+                    "target": "KIT"
+                },
+                {
+                    "source": "CBLB",
+                    "target": "NCK2"
+                },
+                {
+                    "source": "CBLB",
+                    "target": "VAV1"
+                },
+                {
+                    "source": "CBLB",
+                    "target": "CD2AP"
+                },
+                {
+                    "source": "VAV1",
+                    "target": "CD19"
+                },
+                {
+                    "source": "VAV2",
+                    "target": "SLC12A6"
+                },
+                {
+                    "source": "VAV2",
+                    "target": "CAV1"
+                },
+                {
+                    "source": "VAV2",
+                    "target": "CD19"
+                },
+                {
+                    "source": "VAV2",
+                    "target": "ERBB2"
+                },
+                {
+                    "source": "VAV2",
+                    "target": "ERBB3"
+                },
+                {
+                    "source": "VAV2",
+                    "target": "TOM1L1"
+                }
+            ]
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "Bio-condensate Network of VAV2 union",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_c63921a0c8bc46169bfcb7f6ba8f12d8.setOption(option_c63921a0c8bc46169bfcb7f6ba8f12d8);
+    </script>
+</body>
+</html>

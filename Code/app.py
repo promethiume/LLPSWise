@@ -14,7 +14,7 @@ import time
 import subprocess
 from flask import Flask, request, render_template
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder="../Code/condensateNetV2/templates")
 
 @app.route("/llpswise/<id>")                       
 def unionPriK(id):                               

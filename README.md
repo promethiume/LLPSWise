@@ -24,3 +24,13 @@ split the .dat file and rename those file as uniprotID.txt
 
 3. start the query
 python main.py --id [uniprotID]
+
+4. check the results
+
+change the path in app.py
+
+``app = Flask(__name__, template_folder="../Code/condensateNetV2/templates")``
+
+python app.py
+
+then open a browser on the URL http://127.0.0.1:8000/llpswise/<targetid>
